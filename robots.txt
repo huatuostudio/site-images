@@ -12,3 +12,13 @@ Disallow: /
 
 User-agent: CCBot
 Disallow: /
+
+# Explicitly stop bots from indexing image files
+User-agent: *
+Disallow: /*.jpg$
+User-agent: *
+Disallow: /*.jpeg$
+User-agent: *
+Disallow: /*.png$
+User-agent: *
+Disallow: /*.webp$
